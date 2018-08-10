@@ -1,1 +1,41 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/reactapptest/manifest.json"><link rel="shortcut icon" href="/reactapptest/favicon.ico"><title>React App</title><link href="/reactapptest/static/css/main.c17080f1.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script type="text/javascript" src="/reactapptest/static/js/main.81237b51.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            console.log("-----head, before body-----");
+
+            console.log("innerHeight:", window.innerWidth, window.innerHeight);
+            console.log("outerWidth:", window.outerWidth, window.outerHeight);
+
+            console.log("documentElement.offsetHeight:", document.documentElement.offsetWidth, document.documentElement.offsetHeight);
+            console.log("documentElement.clientHeight:", document.documentElement.clientWidth, document.documentElement.clientHeight);
+            console.log("documentElement.scrollHeight:", document.documentElement.scrollWidth, document.documentElement.scrollHeight);
+            console.log("documentElement.scrollTop:", document.documentElement.scrollTop);
+            console.log("documentElement.scrollLeft:", document.documentElement.scrollLeft);
+
+            // console.log("body.offsetHeight:", document.body.offsetWidth, document.body.offsetHeight);
+            // console.log("body.clientHeight:", document.body.clientWidth, document.body.clientHeight);
+            // console.log("body.scrollHeight:", document.body.scrollWidth, document.body.scrollHeight);
+            // console.log("body.scrollTop:", document.body.scrollTop);
+            // console.log("body.scrollLeft:", document.body.scrollLeft);
+
+            console.log("screen.height:", screen.width, screen.height);
+            console.log("screen.availHeight:", screen.availWidth, screen.availHeight);
+        </script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no initial-scale=1, viewport-fit=cover">
+        <meta name="google" content="notranslate">
+       
+        <meta name="theme-color" content="#e6c553">
+
+        <title>Hello React!</title>
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" /> -->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,500" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    </head>
+    <body>
+        <div id="startup"></div>
+        <!-- Main -->
+        <script src="./bundle.js"></script>
+    </body>
+</html>
